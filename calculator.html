@@ -1,18 +1,56 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator2</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+ <!--<h1>Taschenrechner</h1> -->
+ <div id="resultarea"></div>
+    <table class="grid">
 
-<html>
-<H1>Calculator</H1>
+        <tr>
+            <td class="grid-item" onclick="deletelast()">DEL</td>
+            <td class="grid-item" onclick="deleteall()">AC</td>
+            <td class="grid-item" onclick="appendOperation(' % ')">%</td>
+            <td class="grid-item" onclick="appendOperation(' / ')">/</td>
+        </tr>
 
-<button type="button">1</button>
+        <tr>
+            <td class="grid-item" onclick="appendOperation(7)">7</td>
+            <td class="grid-item" onclick="appendOperation(8)">8</td>
+            <td class="grid-item" onclick="appendOperation(9)">9</td>
+            <td class="grid-item" onclick="appendOperation(' * ')">*</td>
+        </tr>
 
+        <tr>
+            <td class="grid-item" onclick="appendOperation(4)">4</td>
+            <td class="grid-item" onclick="appendOperation(5)">5</td>
+            <td class="grid-item" onclick="appendOperation(6)">6</td>
+            <td class="grid-item" onclick="appendOperation(' + ')">+</td>
 
+        </tr>
 
+        <tr>
+            <td class="grid-item" onclick="appendOperation(1)">1</td>
+            <td class="grid-item" onclick="appendOperation(2)">2</td>
+            <td class="grid-item" onclick="appendOperation(3)">3</td>
+            <td class="grid-item" onclick="appendOperation(' - ')">-</td>
 
-<section>
+        </tr>
 
-</section>
+        <tr>
+            <td class="grid-item" onclick="appendOperation(0)">0</td>
+            <td class="grid-item" onclick="appendOperation('.')">,</td>
+            <td class="grid-item" onclick="appendOperation('√ ')">√</td>
+            <td class="grid-item" onclick="Berechnungergebnis()" class="ergebnis">=</td>
+        
+        </tr>
+    </table> 
+ 
 
-
-
-
+</body>
 </html>
