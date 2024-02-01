@@ -157,9 +157,9 @@ margin-bottom: 80px;
 
 }
 .arrow {
-  background-image: url(https://png2.cleanpng.com/sh/80aff1b01bd4b61ab2dfe0bd77493e19/L0KzQYi4UsA4N2k3SJGAYUK8SbS4U8VjOGZnSZC9MkCzRYiAV8E2OWM7T6g8N0G2R4OBTwBvbz==/5a299c135b05b1.4200577715126763713728.png);
+  background-image: url('./img/dots.png');
   background-size: contain;
-  height: 160px;
+  height: 170px;
   width: 20px;
   display: flex;
   flex-direction: column;
